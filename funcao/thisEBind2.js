@@ -4,7 +4,7 @@ function Pessoa() {
     const self = this
     setInterval(function() {
         self.idade++
-        console.log(this.idade)
+        console.log(self.idade)
     }/*.bind(this)*/, 1000)
 }
 
