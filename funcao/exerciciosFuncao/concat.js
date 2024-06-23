@@ -7,4 +7,3 @@ let concat2 = vetorString.concat(vetorDouble)
 
 console.log(concat1)
 console.log(concat2)
-
