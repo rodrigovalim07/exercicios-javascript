@@ -13,7 +13,7 @@ Object.entries(pessoa).forEach(([chave, valor]) => {
 })
 
 Object.defineProperty(pessoa, 'dataNascimento', {
-    enumerable: true, // se pode aparecer ou não na listagem de cahves
+    enumerable: true, // se pode aparecer ou não na listagem de chaves
     writable: false, // se pode ser alterada ou não
     value: '01/01/2019'
 })
