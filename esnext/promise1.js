@@ -6,7 +6,7 @@ function falarDepoisDe(segundos, frase) {
     })
 }
 
-falarDepoisDe(3, 'Que legal!')
+ (3, 'Que legal!')
     .then(frase => frase.concat('?!?'))
     .then(outraFrase => console.log(outraFrase))
     .catch(erro => console.log(erro))
